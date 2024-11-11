@@ -1,0 +1,334 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: #222;
+    font-family: "Roboto", serif;
+    font-size: 14px;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+}
+
+button {
+    background-color: transparent;
+}
+
+header.header-shadow {
+    position: relative;
+    z-index: 2;
+    box-shadow: 0 4px 15px #E8E8E8;
+}
+
+.text-regular {
+    color: #666;
+}
+
+.text-dark {
+    color: #222;
+}
+
+.text-green {
+    color: green;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul.dotted li::after {
+    content: '';
+    display: inline-block;
+    width: 4px;
+    height: 4px;
+    margin: 0 8px;
+    border-radius: 100%;
+    background-color: #666;
+}
+
+ul.dotted li:last-child::after {
+    display: none;
+    
+}
+
+ul.dotted .red {
+    color: red;
+    opacity: 0.5;
+    font-weight: bold;
+}
+
+
+
+.flex {
+    display: flex;
+}
+
+.direction-column {
+    flex-direction: column;
+}
+
+.flex-none {
+    flex: none;
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+.items-center {
+    align-items: center;
+}
+
+.justify-between {
+    justify-content:space-between;
+}
+
+.gap {
+    gap: 8px;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.m-0 {
+    margin: 0;
+}
+
+.mb-6 {
+    margin-bottom: 16px;
+}
+
+
+
+.fa-twitter {
+color: cornflowerblue;
+margin: 8px;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    color: #222;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 1400px;
+    margin: 0 auto;
+    gap: 45px;
+}
+
+
+main {
+    width: 66.666%;
+    padding-top: 60px;
+}
+
+aside {
+    width: 33.333%;
+    padding: 30px;
+}
+
+aside section {
+    padding: 15px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    color: #666;
+
+}
+
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+} 
+
+.navbar ul li {
+    padding: 6px;
+}
+
+ul.recommended-topics {
+    margin: 0 -4px;
+}
+
+ul.recommended-topics li {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #eee;
+    border-radius: 40px;
+    margin: 4px;
+
+}
+
+ul.follow-list li {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 30px;
+
+}
+
+ul.follow-list li img {
+    width: 45px;
+    height: 45px;
+    border-radius: 45px;
+    object-fit: cover;
+}
+
+ul.follow-list li h4 {
+    margin: 0;
+
+}
+
+ul.follow-list li p {
+    margin: 0;
+} 
+
+ul.follow-list li button {
+    border: 1px solid #666;
+    padding: 8px 14px;
+    border-radius: 40px;
+    background-color: transparent;
+}
+
+.membership {
+    border: 1px solid #666;
+    padding: 8px 20px;
+    border-radius: 40px;
+}
+
+.avatar {
+    color: white;
+    background-color: forestgreen;
+    border: none;
+    display: block;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+}
+
+.autor {
+    display: block;
+    width: 24px;
+    height: 24px;
+    object-fit: cover;
+    border-radius: 6px;
+    /*border: 1px solid #666;*/
+}
+
+#logo {
+    display: block;
+    width: 170px;
+}
+
+#logo img {
+    padding: 20px 0;
+}
+
+.following-tab h4 span {
+    text-transform: uppercase;
+
+}
+
+.following-tab h4 span:first-child {
+    color: #666;
+    font-weight: lighter;
+    margin-right: 16px;
+}
+
+.following-tab h4 span:nth-child(2) {
+    display: inline-block ;
+    padding: 5px;
+    border-bottom: 1px solid #222;
+}
+
+.blog-item {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 60px;
+
+}
+
+.blog-item-thumb {
+    width: 33.333%;
+
+}
+
+.blog-item-thumb img {
+    width: 100%;
+    height: 100%;
+    max-height: 167px;
+    object-fit: cover;
+}
+
+.blog-item-text {
+    width: 66.666%;
+}
+
+button.connect {
+    border: 1px solid #666;
+    padding: 4px 30px;
+    border-radius: 40px;
+}
+
+.aside-footer ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+}
+
+.aside-footer ul li {
+    padding: 8px;
+}
+
+.medium-twitter-logo p {
+    color: cornflowerblue;
+    padding: 4px;
+}
+
+div .medium-twitter-logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.fa-brands.fa-medium {
+    font-size: 36px;
+    margin: 0 4px;
+}
+
+.medium-twitter-logo .fa-brands.fa-twitter {
+    font-size: 30px;
+}
+
+
+
+
+
